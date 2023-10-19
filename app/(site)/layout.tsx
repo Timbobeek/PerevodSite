@@ -23,7 +23,7 @@ export default async function RootLayout({
       <body className='max-w-3xl mx-auto py-10 bg-pink-200 '>
         <header className='flex items-center justify-between'>
           <Link href="/" className='bg-gradient-to-r from-yellow-400 via-lime-500 to-green-600 bg-clip-text text-transparent text-2xl'>
-            TimmyPage
+            WeTranslate!
           </Link>
           <div className='flex items-center gap-5'>
             {pages.map((page) => (

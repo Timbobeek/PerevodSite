@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## To Do List
+
+-Finalize the site architecture
+-Categories in the nav bar need to be a dropdown with options (poetry, music, prose, etc)
+-Should categories be based on language or genre? Or both?
+-Maybe make the welcome text a running line in many languages
+-Maybe add some flags in the background?
