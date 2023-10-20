@@ -21,31 +21,4 @@ export default async function Page({ params }: Props) {
       <PortableText value={page.content} />
     </div>
   )
-
-  // if (page.image !== null){
-  //   return (
-  //     <div>
-  //       <h1 className="text-6xl font-extrabold py-10">{page.title}</h1>
-  //       <Image src={page.image} alt={page.title} width={400} height={108} className="mt-10 border-2 border-gray-700 object-cover rounded-xl"/>
-  //       <PortableText value={page.content} />
-  //     </div>
-  //   )
-  // }
-  // return (
-  //   <div>
-  //     <h1 className="text-6xl font-extrabold py-10">{page.title}</h1>
-  //     <PortableText value={page.content} />
-  //   </div>
-  // )
 }
-
-// export default async function Page({ params }: Props) {
-//   const page = await getPage(params.slug);
-//     return (
-//       <div>
-//         <h1 className="text-6xl font-extrabold py-10">{page.title}</h1>
-//         <Image src={page.image} alt={page.title} width={400} height={108} className="mt-10 border-2 border-gray-700 object-cover rounded-xl"/>
-//         <PortableText value={page.content} />
-//       </div>
-//     )
-// }
