@@ -9,6 +9,19 @@ const page = {
       type: 'string'
     },
     {
+      name: 'image',
+      title: 'Image',
+      type: 'image',
+      options: { hotspot: true },  //lets you play around with the image
+            fields: [
+                {
+                    name: 'alt',
+                    title: 'Alt',
+                    type: 'string'
+                }
+            ]
+    },
+    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
